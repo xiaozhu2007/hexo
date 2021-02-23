@@ -7,14 +7,14 @@ Welcome to [Hexo](https://hexo.io/)! This is your very first post.
 
 
 
-<-- 引入 -->
+<!-- 引入 -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
 <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
  
-<-- 添加一个容器-->
+<!-- 添加一个容器-->
 <div id="gitalk-container"></div>
  
-<-- 生成 gitalk 插件-->
+<!-- 生成 gitalk 插件-->
 <script>
 var gitalk = new Gitalk({
   clientID: 'f057bacc8823b2df5bf6', //Client ID
@@ -23,7 +23,7 @@ var gitalk = new Gitalk({
  
   repo: 'gittalk',//仓库名称
   owner: 'xiaozhu2007',//仓库拥有者
-  admin: ['smfx1314'],
+  admin: ['xiaozhu2007'],
   id: location.href,      // Ensure uniqueness and length less than 50
   distractionFreeMode: false  // Facebook-like distraction free mode
 })
