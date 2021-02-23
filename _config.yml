@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Xiaozhu's Blog
-subtitle: 
+title: 小猪博客
+subtitle: Xiaozhu's Blog
 description:
-keywords:
+keywords: 小猪,Github,Blog,腾讯,飞书
 author: Xiaozhu
-language: zh_CN
+language: zh-CN
 timezone: Asia/Shanghai
 
 # URL
