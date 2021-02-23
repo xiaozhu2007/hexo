@@ -14,7 +14,8 @@
 </script>
 <% } %>
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<!-- 不再使用Google的CDN，改为staticfile-->
+<script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
 
 <% if (theme.fancybox){ %>
   <%- css('fancybox/jquery.fancybox') %>
