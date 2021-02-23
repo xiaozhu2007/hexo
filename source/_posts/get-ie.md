@@ -2,11 +2,11 @@
 title: 获取IE
 ---
 
-# 如何获取IE？
+## 如何获取IE？
 
 
 
-## Windows 10
+### Windows 10
 
 ------
 
@@ -28,7 +28,7 @@ title: 获取IE
 
  
 
-## Windows 8.1
+### Windows 8.1
 
 
 
@@ -38,7 +38,7 @@ title: 获取IE
 
  
 
-## Windows 7
+### Windows 7
 
 ------
 
