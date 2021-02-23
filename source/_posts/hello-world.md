@@ -21,7 +21,7 @@ var gitalk = new Gitalk({
  
   clientSecret: 'd2c414884cc59d059bf37a522eaac540bdcc3fe0', //Client Secret
  
-  repo: 'gittalk',//仓库名称
+  repo: 'gitalk',//仓库名称
   owner: 'xiaozhu2007',//仓库拥有者
   admin: ['xiaozhu2007'],
   id: location.href,      // Ensure uniqueness and length less than 50
