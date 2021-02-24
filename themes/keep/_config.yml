@@ -103,7 +103,7 @@ post:
 
   # Author label
   author_label:
-    enable: true
+    enable: false
     auto: true  # if true, show Lv1, Lv2, Lv3... , If false, show custom label
     # label array item can be one or more
     custom_label_list: [ "Trainee", "Engineer", "Architect", "CTO", "BOSS" ]
@@ -113,7 +113,7 @@ post:
 # Code copy
 # ---------------------------------------------------------------------------------------
 code_copy:
-  enable: true
+  enable: false
   style: default        # values: default | mac
 
 
@@ -137,7 +137,7 @@ toc:
 # Post copyright info
 # ---------------------------------------------------------------------------------------
 copyright_info:
-  enable: true
+  enable: false
 
 
 # ---------------------------------------------------------------------------------------
