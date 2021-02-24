@@ -1,12 +1,11 @@
 # ---------------------------------------------------------------
-# Theme Core Configuration Settings
-# See: https://theme-next.org/docs/theme-settings/
+#主题核心配置设置
+#请参见：https://theme-next.org/docs/theme-settings/
 # ---------------------------------------------------------------
-
-# If false, merge configs from `_data/next.yml` into default configuration (rewrite).
-# If true, will fully override default configuration by options from `_data/next.yml` (override). Only for NexT settings.
-# And if true, all config from default NexT `_config.yml` have to be copied into `next.yml`. Use if you know what you are doing.
-# Useful if you want to comment some options from NexT `_config.yml` by `next.yml` without editing default config.
+#如果为false，则从`\u数据合并配置/下一个.yml`进入默认配置（重写）。
+#如果为true，将通过`\u data中的选项完全覆盖默认配置/下一个.yml`（覆盖）。仅用于下一设置。
+#如果为true，则下一步将从默认值开始进行所有配置`_配置yml`必须复制到`下一个.yml`. 如果你知道你在做什么就用。
+#如果您想对下一页中的某些选项进行注释，那么这将非常有用`_配置yml`由`下一个.yml`不编辑默认配置。
 override: false
 
 # Console reminder if new version released.
@@ -52,7 +51,7 @@ language_switcher: false
 
 footer:
   # Specify the date when the site was setup. If not defined, current year will be used.
-  #since: 2015
+  since: 2018
 
   # Icon between year and copyright info.
   icon:
@@ -67,7 +66,7 @@ footer:
   copyright:
 
   # Powered by Hexo & NexT
-  powered: true
+  powered: false
 
   # Beian ICP and gongan information for Chinese users. See: https://beian.miit.gov.cn, http://www.beian.gov.cn
   beian:
