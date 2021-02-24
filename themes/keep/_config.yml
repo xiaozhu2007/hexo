@@ -147,10 +147,10 @@ website_count:
   # busuanzi
   # See: http://ibruce.info/2015/04/04/busuanzi/
   busuanzi_count:
-    enable: false
-    site_uv: false
-    site_pv: false
-    page_pv: false
+    enable: true
+    site_uv: false  #网站访问人数
+    site_pv: true   #网站总访问量
+    page_pv: false #文章阅读次数
 
 
 # ---------------------------------------------------------------------------------------
