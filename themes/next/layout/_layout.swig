@@ -2,6 +2,7 @@
 <html lang="{{ config.language }}">
 <!-- 小猪博客 主题Next  联系大佬lz19986912007@163.com -->
 <!-- 复制转载文章请注明出处并征求小猪的同意，不然小猪打死你2333 -->
+<! -- Email me at lz19986912007@163.com  -->
 <head>
   {{ partial('_partials/head/head.swig', {}, {cache: theme.cache.enable}) }}
   {% include '_partials/head/head-unique.swig' %}
@@ -58,10 +59,5 @@
   {%- if theme.pjax %}
     </div>
   {%- endif %}
-
-
-<!-- 右键菜单
-<script scr="/js/right-menu.js">
- -->
 </body>
 </html>
