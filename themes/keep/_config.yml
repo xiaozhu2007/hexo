@@ -37,7 +37,7 @@ style:
   first_screen:
     enable: true
     background_img: /images/bg.svg   # You can use local image or image external link
-    description: Keep writing and Keep loving.
+    description: 欢迎新朋友们
 
   # Scroll style settings
   scroll:
@@ -53,7 +53,7 @@ style:
 social_contact:
   enable: false
   links:
-    github:          # your GitHub URL
+    github: https://github.com/xiaozhu2007          # your GitHub URL
     weixin:          # your WeChat QR-Code URL
     qq:              # your QQ QR-Code URL
     weibo:           # your WeiBo URL
@@ -97,9 +97,9 @@ post:
   # Dependencies: hexo-wordcount (npm install hexo-wordcount)
   # See: https://github.com/willin/hexo-wordcount
   word_count:
-    enable: false
-    wordcount: false  # word count, one article
-    min2read: false   # time to read, one article
+    enable: true
+    wordcount: true  # word count, one article
+    min2read: true   # time to read, one article
 
   # Author label
   author_label:
@@ -113,7 +113,7 @@ post:
 # Code copy
 # ---------------------------------------------------------------------------------------
 code_copy:
-  enable: false
+  enable: true
   style: default        # values: default | mac
 
 
@@ -137,7 +137,7 @@ toc:
 # Post copyright info
 # ---------------------------------------------------------------------------------------
 copyright_info:
-  enable: false
+  enable: true
 
 
 # ---------------------------------------------------------------------------------------
