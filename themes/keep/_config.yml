@@ -20,7 +20,7 @@ style:
   favicon: /images/logo.svg
 
   # Article image align position, value: left | center
-  article_img_align: left
+  article_img_align: center
 
   # Left side width
   left_side_width: 260px
@@ -121,13 +121,13 @@ code_copy:
 # Table of Contents in the Sidebar
 # ---------------------------------------------------------------------------------------
 toc:
-  enable: false
+  enable: true
 
   # Automatically add list number to toc.
-  number: false
+  number: true
 
   # If true, all level of TOC in a post will be displayed, rather than the activated part of it.
-  expand_all: false
+  expand_all: true
 
   # If true, open TOC every time when you enter the article page
   init_open: false
