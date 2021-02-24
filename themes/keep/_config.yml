@@ -2,10 +2,9 @@
 #  Your basic info
 # ---------------------------------------------------------------------------------------
 base_info:
-  title: Keep Theme
-  author: Keep team
-  url: https://keep.xpoet.cn/
-
+  title: 小猪博客
+  author: 小猪呐
+  url: https://xzblog.vercel.app/
 
 # ---------------------------------------------------------------------------------------
 # Theme style settings
@@ -36,7 +35,7 @@ style:
 
   # First screen
   first_screen:
-    enable: false
+    enable: true
     background_img: /images/bg.svg   # You can use local image or image external link
     description: Keep writing and Keep loving.
 
@@ -61,7 +60,7 @@ social_contact:
     zhihu:           # your ZhiHu URL
     twitter:         # your twitter URL
     facebook:        # your facebook URL
-    email:           # your email
+    email:lz19986912007@163.com           # your email
 
 
 # ---------------------------------------------------------------------------------------
@@ -71,7 +70,7 @@ menu:
   Home: /
   Archives: /archives
   # Categories: /categories
-  # Tags: /tags
+  Tags: /tags
   # Links: /links
   # About: /about
   # Changelog: /changelog
@@ -199,7 +198,7 @@ comment:
 # See: https://github.com/hexojs/hexo-generator-feed
 # ---------------------------------------------------------------------------------------
 rss:
-  enable: false
+  enable: true
 
 
 # ---------------------------------------------------------------------------------------
@@ -227,7 +226,7 @@ pjax:
 # Footer settings
 # ---------------------------------------------------------------------------------------
 footer:
-  since: 2020
+  since: 2019
 
 
 # ---------------------------------------------------------------------------------------
