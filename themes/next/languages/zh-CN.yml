@@ -65,7 +65,7 @@ cheers:
   good: 很好
   great: 非常好
   excellent: 太棒了
-keep_on: 继续努力。
+keep_on: 继续努力
 symbol:
   comma: "，"
   period: "。"
@@ -74,7 +74,7 @@ reward:
   donate: 打赏
   wechatpay: 微信支付
   alipay: 支付宝
-  paypal: 贝宝
+  paypal: PayPal
   bitcoin: 比特币
 follow_me:
   welcome: 欢迎关注我的其它发布渠道
