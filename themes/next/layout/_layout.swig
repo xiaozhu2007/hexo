@@ -56,5 +56,10 @@
   {%- if theme.pjax %}
     </div>
   {%- endif %}
+
+
+<!-- 右键菜单
+<script scr="/js/right-menu.js">
+ -->
 </body>
 </html>
