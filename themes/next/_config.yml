@@ -70,7 +70,7 @@ footer:
 
   # Beian ICP and gongan information for Chinese users. See: https://beian.miit.gov.cn, http://www.beian.gov.cn
   beian:
-    enable: true
+    enable: false
     icp:
     # The digit in the num of gongan beian.
     gongan_id:
@@ -117,7 +117,7 @@ darkmode: true
 menu:
   home: / || fa fa-home
   #about: /about/ || fa fa-user
-  #tags: /tags/ || fa fa-tags
+  tags: /tags/ || fa fa-tags
   #categories: /categories/ || fa fa-th
   archives: /archives/ || fa fa-archive
   #schedule: /schedule/ || fa fa-calendar
@@ -137,8 +137,8 @@ menu_settings:
 
 sidebar:
   # Sidebar Position.
-  position: left
-  #position: right
+  position: right
+  #position: left
 
   # Manual define the sidebar width. If commented, will be default for:
   # Muse | Mist: 320
@@ -171,13 +171,13 @@ avatar:
 # Posts / Categories / Tags in sidebar.
 site_state: true
 
-# Social Links
-# Usage: `Key: permalink || icon`
-# Key is the link label showing to end users.
-# Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
+#社会联系
+#用法：`Key:permalink | | icon`
+#键是显示给最终用户的链接标签。
+#“| | `分隔符前面的值是目标永久链接，“| | `分隔符后面的值是字体图标的名称。
 social:
-  #GitHub: https://github.com/yourname || fab fa-github
-  #E-Mail: mailto:yourname@gmail.com || fa fa-envelope
+  GitHub: https://github.com/xiaozhu2007 || fab fa-github
+  E-Mail: mailto:lz19986912007@163.com || fa fa-envelope
   #Weibo: https://weibo.com/yourname || fab fa-weibo
   #Google: https://plus.google.com/yourname || fab fa-google
   #Twitter: https://twitter.com/yourname || fab fa-twitter
@@ -233,8 +233,8 @@ chat:
 # Automatically excerpt description in homepage as preamble text.
 excerpt_description: true
 
-# Read more button
-# If true, the read more button will be displayed in excerpt section.
+#阅读更多按钮
+#如果为true，则“阅读更多”按钮将显示在摘录部分。
 read_more_btn: true
 
 # Post meta display settings
@@ -265,7 +265,7 @@ reward_settings:
   #comment: Donate comment here.
 
 reward:
-  #wechatpay: /images/wechatpay.png
+  wechatpay: /images/wechatpay.png
   #alipay: /images/alipay.png
   #paypal: /images/paypal.png
   #bitcoin: /images/bitcoin.png
@@ -451,11 +451,12 @@ font:
 # ---------------------------------------------------------------
 
 # Disable Baidu transformation on mobile devices.
+#在移动设备上禁用百度转换
 disable_baidu_transformation: false
 
 # If true, site-subtitle will be added to index page.
 # Remember to set up your site-subtitle in Hexo `_config.yml` (e.g. subtitle: Subtitle)
-index_with_subtitle: false
+index_with_subtitle: true
 
 # Automatically add external URL with Base64 encrypt & decrypt.
 exturl: false
@@ -557,6 +558,8 @@ quicklink:
 # ---------------------------------------------------------------
 # Comments Settings
 # See: https://theme-next.org/docs/third-party-services/comments
+#评论设置
+#请参见：https://theme-next.org/docs/third-party-services/comments
 # ---------------------------------------------------------------
 
 # Multiple Comment System Support
