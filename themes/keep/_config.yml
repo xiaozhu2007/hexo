@@ -113,7 +113,7 @@ post:
 # Code copy
 # ---------------------------------------------------------------------------------------
 code_copy:
-  enable: false
+  enable: true
   style: default        # values: default | mac
 
 
@@ -130,14 +130,14 @@ toc:
   expand_all: true
 
   # If true, open TOC every time when you enter the article page
-  init_open: false
+  init_open: true
 
 
 # ---------------------------------------------------------------------------------------
 # Post copyright info
 # ---------------------------------------------------------------------------------------
 copyright_info:
-  enable: false
+  enable: true
 
 
 # ---------------------------------------------------------------------------------------
@@ -167,15 +167,15 @@ local_search:
 # Comment plugin
 # ---------------------------------------------------------------------------------------
 comment:
-  enable: true
-  use: gitalk  # values: valine | gitalk | twikoo
+  enable: false
+  use: valine  # values: valine | gitalk | twikoo
 
   # Valine
   # See: https://github.com/xCss/Valine
   valine:
     appid:                # your leancloud application appid
     appkey:               # your leancloud application appkey
-    placeholder:          # your placeholder
+    placeholder: 说些什么…          # your placeholder
 
   # Gitalk
   # See: https://github.com/gitalk/gitalk
