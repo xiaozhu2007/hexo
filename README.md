@@ -18,4 +18,4 @@ https://xzblog.vercel.app/
 
 ### 项目概况
 
-[![Xiaozhu's GitHub stats](https://github-readme-stats.vercel.app/api?username=xiaozhu2007&repo=hexo&locale=cn&)](https://xzblog.vercel.app/
+[![Xiaozhu's GitHub stats](https://github-readme-stats.vercel.app/api?username=xiaozhu2007&repo=hexo&locale=cn&show_owner)](https://xzblog.vercel.app/
