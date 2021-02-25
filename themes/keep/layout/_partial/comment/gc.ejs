@@ -1,0 +1,22 @@
+<% if(
+        theme.comment.use === 'gc'
+        && theme.comment.gc.client_id
+        && theme.comment.gc.client_secret
+        && theme.comment.gc.github_id
+        && theme.comment.gc.repository
+) { %>
+<div id="container"></div>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+    var gitment = new Gitment({
+        id: location.href, // 可选,默认为 location.href
+        owner: '<%= theme.comment.gc.github_id %>',
+        repo: '<%= theme.comment.gc.repository %>',
+        oauth: {
+            client_id: '<%= theme.comment.gc.client_id %>',
+            client_secret: '<%= theme.comment.gc.client_secret %>',
+        },
+    })
+    gitment.render('container')
+</script>

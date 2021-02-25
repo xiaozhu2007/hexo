@@ -167,8 +167,8 @@ local_search:
 # Comment plugin
 # ---------------------------------------------------------------------------------------
 comment:
-  enable: false
-  use: valine  # values: valine | gitalk | twikoo
+  enable: true
+  use: gc  # values: valine | gitalk | twikoo | gc
 
   # Valine
   # See: https://github.com/xCss/Valine
@@ -190,6 +190,15 @@ comment:
   twikoo:
     env_id:                # Tencent Cloud environment id
     region:                # environment region. If select Guangzhou, fill in "ap-guangzhou".
+    
+    
+  # GC
+
+  gc:
+    github_id: xiaozhu2007             # GitHub repo owner
+    repository: hexo            # Repository name to store issues
+    client_id: f057bacc8823b2df5bf6            # GitHub Application Client ID
+    client_secret: fdd164b5b519176c9b850e125ca584af61dd2cbd        # GitHub Application Client Secret
 
 
 # ---------------------------------------------------------------------------------------
