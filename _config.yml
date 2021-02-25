@@ -6,14 +6,14 @@
 title: 小猪博客
 subtitle: Xiaozhu's Blog
 description:
-keywords: 小猪,Github,Blog,腾讯,飞书
+keywords: 小猪,Github,Blog,xiaozhu,Xiaozhu,Hexo,Keep
 author: Xiaozhu
 language: zh-CN
 timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://hexo.xiaozhu2007.vercel.app
+url: https://xzblog.vercel.app
 root: /
 permalink: :year/:title/
 permalink_defaults:
@@ -80,11 +80,3 @@ theme: keep
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
-  
-  
-# hexo default is empty, change to exact languages, and add xx.yml under your theme languages dir.
-language: [zh,en]
-# config hexo-generator-i18n option (optional, this is default option)
-i18n:
-  type: [page, post]
-  generator: [archive, category, tag, index]
