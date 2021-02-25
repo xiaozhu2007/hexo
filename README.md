@@ -15,7 +15,3 @@ https://xzblog.vercel.app/
     <img height="60px" src="https://s3.ax1x.com/2021/02/25/yvmCY4.png">
 </a>
 </div>
-
-### 项目概况
-
-[![Xiaozhu's GitHub stats](https://github-readme-stats.vercel.app/api?username=xiaozhu2007&repo=hexo&locale=cn&show_owner)](https://xzblog.vercel.app/)
