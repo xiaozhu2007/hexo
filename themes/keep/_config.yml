@@ -46,7 +46,7 @@ style:
     percent:
       enable: false
 
-
+    
 # ---------------------------------------------------------------------------------------
 # Social contact link
 # ---------------------------------------------------------------------------------------
@@ -149,7 +149,7 @@ website_count:
   busuanzi_count:
     enable: true
     site_uv: false  #网站访问人数
-    site_pv: true   #网站总访问量
+    site_pv: false   #网站总访问量
     page_pv: false #文章阅读次数
 
 
@@ -167,8 +167,8 @@ local_search:
 # Comment plugin
 # ---------------------------------------------------------------------------------------
 comment:
-  enable: false
-  use: valine  # values: valine | gitalk | twikoo
+  enable: true
+  use: gitalk  # values: valine | gitalk | twikoo
 
   # Valine
   # See: https://github.com/xCss/Valine
@@ -180,10 +180,10 @@ comment:
   # Gitalk
   # See: https://github.com/gitalk/gitalk
   gitalk:
-    github_id:             # GitHub repo owner
-    repository:            # Repository name to store issues
-    client_id:             # GitHub Application Client ID
-    client_secret:         # GitHub Application Client Secret
+    github_id: xiaozhu2007             # GitHub repo owner
+    repository: hexo            # Repository name to store issues
+    client_id: f057bacc8823b2df5bf6            # GitHub Application Client ID
+    client_secret: fdd164b5b519176c9b850e125ca584af61dd2cbd        # GitHub Application Client Secret
 
   # Twikoo
   # See: https://github.com/imaegoo/twikoo
