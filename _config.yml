@@ -82,8 +82,9 @@ deploy:
   type:
   
   
-search:
-  path: search.xml
-  field: all
-  content: true
-
+# hexo default is empty, change to exact languages, and add xx.yml under your theme languages dir.
+language: [zh,en]
+# config hexo-generator-i18n option (optional, this is default option)
+i18n:
+  type: [page, post]
+  generator: [archive, category, tag, index]
