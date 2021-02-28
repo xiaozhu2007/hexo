@@ -1,5 +1,5 @@
 /* global KEEP */
-console.log(`\n %c Blog By Hexo \n`, `color: #fadfa3; background: #333; padding: 5px 0;`, `background: #fadfa3; padding: 5px 0;`);
+console.log(`\n %c Blog By Hexo \n`, `color: #fadfa3;`);
 window.addEventListener('DOMContentLoaded', () => {
 
   KEEP.themeInfo = {
