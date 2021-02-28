@@ -24,11 +24,12 @@ site_uv: 访问人数
 site_pv: 总访问量
 links: 友链
 link: 友链
-top: 顶置
+top: 置顶
 read_more: 阅读全文
 wordcount: 字
 min2read: 分钟
-changelog: 更新日志
+changelog: 日志
+sponsor: 赞助
 copyright:
   title: 本文标题
   author: 本文作者

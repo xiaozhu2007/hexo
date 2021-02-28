@@ -37,7 +37,7 @@ style:
   first_screen:
     enable: true
     background_img: /images/bg.svg   # You can use local image or image external link
-    description: 欢迎新朋友们
+    description: 内容很少，特效不少
 
   # Scroll style settings
   scroll:
@@ -54,8 +54,8 @@ social_contact:
   enable: false
   links:
     github: https://github.com/xiaozhu2007          # your GitHub URL
-    weixin:          # your WeChat QR-Code URL
-    qq:              # your QQ QR-Code URL
+    weixin: /wx.png         # your WeChat QR-Code URL
+    qq: /qq.png             # your QQ QR-Code URL
     weibo:           # your WeiBo URL
     zhihu:           # your ZhiHu URL
     twitter:         # your twitter URL
@@ -71,9 +71,10 @@ menu:
   Archives: /archives
   # Categories: /categories
   Tags: /tags
-  Links: /links
+  # Links: /links
   # About: /about
-  # Changelog: /changelog
+  Changelog: /changelog.html
+  Sponsor: https://afdian.net/@xiaozhu2021
   # ......
 
 
