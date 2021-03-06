@@ -55,7 +55,7 @@ social_contact:
   links:
     github: https://github.com/xiaozhu2007          # your GitHub URL
     weixin: /wx.png         # your WeChat QR-Code URL
-    qq: /qq.png             # your QQ QR-Code URL
+    qq:              # your QQ QR-Code URL
     weibo:           # your WeiBo URL
     zhihu:           # your ZhiHu URL
     twitter:         # your twitter URL
@@ -73,8 +73,8 @@ menu:
   Tags: /tags
   # Links: /links
   # About: /about
-  Changelog: /changelog.html
-  Sponsor: https://afdian.net/@xiaozhu2021
+  # Changelog: /changelog.html
+  # Sponsor: https://afdian.net/@xiaozhu2021
   # ......
 
 
@@ -86,8 +86,8 @@ home_article:
     enable: false     # show category in home page article block
     limit: 3          # max number of categories shown in home page article block
   tag:
-    enable: false     # show tags in home page article block
-    limit: 5          # max number of tags shown in home page article block
+    enable: true     # show tags in home page article block
+    limit: 3          # max number of tags shown in home page article block
 
 
 # ---------------------------------------------------------------------------------------
