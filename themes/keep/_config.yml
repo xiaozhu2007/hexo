@@ -189,7 +189,7 @@ comment:
   # Twikoo
   # See: https://github.com/imaegoo/twikoo
   twikoo:
-    env_id:                # Tencent Cloud environment id
+    env_id: twikoo-6gwk7uxib4f79904                # Tencent Cloud environment id
     region:                # environment region. If select Guangzhou, fill in "ap-guangzhou".
     
     
