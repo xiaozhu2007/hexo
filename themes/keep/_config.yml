@@ -189,18 +189,9 @@ comment:
   # Twikoo
   # See: https://github.com/imaegoo/twikoo
   twikoo:
-    env_id: twikoo-6gwk7uxib4f79904                # Tencent Cloud environment id
-    region:                # environment region. If select Guangzhou, fill in "ap-guangzhou".
+    env_id: twikoo-6gwk7uxib4f79904# Tencent Cloud environment id
+    region: ap-shanghai# environment region. If select Guangzhou, fill in "ap-guangzhou".
     
-    
-  # GC
-
-  gc:
-    github_id: xiaozhu2007             # GitHub repo owner
-    repository: hexo            # Repository name to store issues
-    client_id: f057bacc8823b2df5bf6            # GitHub Application Client ID
-    client_secret: fdd164b5b519176c9b850e125ca584af61dd2cbd        # GitHub Application Client Secret
-
 
 # ---------------------------------------------------------------------------------------
 # RSS
