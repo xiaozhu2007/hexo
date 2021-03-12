@@ -168,8 +168,8 @@ local_search:
 # Comment plugin
 # ---------------------------------------------------------------------------------------
 comment:
-  enable: false
-  use: valine  # values: valine | gitalk | twikoo | gc
+  enable: true
+  use: twikoo  # values: valine | gitalk | twikoo | gc
 
   # Valine
   # See: https://github.com/xCss/Valine
