@@ -17,7 +17,7 @@
                 const loadTwikooTimeout = setTimeout(() => {
                     loadTwikoo();
                     clearTimeout(loadTwikooTimeout);
-                }, 1000);
+                }, 5000);
             } else {
                 window.addEventListener('DOMContentLoaded', loadTwikoo);
             }
