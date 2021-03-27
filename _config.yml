@@ -69,8 +69,8 @@ inject:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-#theme: keep
-theme: stellar
+theme: keep
+#theme: stellar
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
