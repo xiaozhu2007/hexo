@@ -1,0 +1,22 @@
+.l_main
+  position: relative
+  padding-bottom: "calc(1 * %s)" % var(--gap-l)
+  @media screen and (min-width: $device-tablet)
+    padding-top: "calc(2 * %s)" % var(--gap-l)
+  header
+    margin: 2rem 1rem 1rem
+    padding: 0.25rem
+    background: var(--block)
+    border-radius: 6px
+    .logo-wrap
+      margin: 0.5rem 0.75rem
+      .avatar
+        width: 32px
+        height: 32px
+        border: none
+      .title
+        font-size: 1.5rem
+  nav.menu
+    margin: -3px
+    a.nav-item
+      margin: 2px

@@ -59,13 +59,22 @@ time_format: HH:mm:ss
 per_page: 10
 pagination_dir: page
 
+inject:
+  head:
+    - <!-- 统计代码-->
+    - <script>var _hmt = _hmt || [];(function() {  var hm = document.createElement("script");  hm.src = "https://hm.baidu.com/hm.js?850365320ece3e37f97739f42b859c52";  var s = document.getElementsByTagName("script")[0];   s.parentNode.insertBefore(hm, s);})();</script>
+    #  script:
+#    - https://cdn.jsdelivr.net/npm/jquery@3.5/dist/jquery.min.js
+
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-#theme: landscape
-theme: keep
+#theme: keep
+theme: stellar
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
+  
+  
