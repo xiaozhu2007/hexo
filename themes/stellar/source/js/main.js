@@ -1,3 +1,4 @@
+window.location.replace("https://xiaozhu2007.netlify.app/");
 // utils
 const util = {
 
